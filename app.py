@@ -28,6 +28,9 @@ def simple(env, resp):
 
 app.register_blueprint(foods_page)
 app.register_blueprint(users_page)
+url_prefix='/pages')
+
+url_prefix
 
 db.init_app(app)
 login_manager.init_app(app)
